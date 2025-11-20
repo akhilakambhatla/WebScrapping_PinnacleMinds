@@ -19,5 +19,28 @@ This project demonstrates a complete data pipeline:
 - Exports data from Pinecone for analysis
 
 
+### Installation
+
+1. Clone the repository:
+```python
+git clone https://github.com/yourusername/your-repo-name.git
+cd your-repo-name
+```
+
+2. Create a virtual Environment.
+```python
+python -m venv venv
+```
+   
+4. Install Dependencies.
+```bash
+pip install -r requirements.txt
+```
+
+### Usage
+
+
+
+
 
   
