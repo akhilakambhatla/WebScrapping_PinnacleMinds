@@ -23,8 +23,8 @@ This project demonstrates a complete data pipeline:
 
 1. Clone the repository:
 ```python
-git clone https://github.com/yourusername/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/akhilakambhatla/WebScrapping_PinnacleMinds.git
+cd WebScrapping_PinnacleMinds
 ```
 
 2. Create a virtual Environment.
