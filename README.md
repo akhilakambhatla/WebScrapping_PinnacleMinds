@@ -43,36 +43,36 @@ pip install -r requirements.txt
 ```python
 python webscrapper.py
 ```
-It takes the url as input (with search term and location) and extracts the contact data and export it to output.csv file. 
-Input: User Given URL:
-Output: company name, website, address and phone number are extracted and saved it in .csv file. 
+It takes the url as input (with search term and location) and extracts the contact information and export it to output.csv file. <br>
+Input: User Given URL: <br>
+Output: company name, website, address and phone number are extracted and saved it in .csv file.  <br>
 
 2. PineCone Database
 
 ```python
 python pinecone.py
 ```
-this scripts takes output.csv file and add the extracted data into pinecone database. 
-NOTE: Before running this script, you need to create your own API key from pinecone.io for accessing your own Database. 
-Input: output.csv
-Output: importing to Pinecone DB. You can verify it in your portal after login at pinecone.io (.home/database/indexes)
+this scripts takes output.csv file and add the extracted data into pinecone database. <br>
+NOTE: Before running this script, you need to create your own API key from pinecone.io for accessing your own Database.<br> 
+Input: output.csv<br>
+Output: importing to Pinecone DB. You can verify it in your portal after login at pinecone.io (.home/database/indexes)<br>
 
 3. Exporting from Pinecone DB
 
 ```python
 python export_data.py
 ```
-This script exports the data from your pinecone database to pinecone_export.csv file. 
-this script is for verification purposes. 
-Input: your own Pinecone API Key. 
-Output: pinecone_export.csv file. 
+This script exports the data from your pinecone database to pinecone_export.csv file.
+this script is for verification purposes. <br>
+Input: your own Pinecone API Key. <br>
+Output: pinecone_export.csv file. <br>
 
 
 ## References Taken from: 
 
-- Yellow Pages for providing publicly accessible business data
-- Pinecone for vector database infrastructure
-- Selenium community for dynamic webscrapping. 
+- Yellow Pages for providing publicly accessible business data<br>
+- Pinecone for vector database infrastructure<br>
+- Selenium community for dynamic webscrapping. <br>
 
 
 
