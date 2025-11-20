@@ -68,6 +68,12 @@ Input: your own Pinecone API Key.
 Output: pinecone_export.csv file. 
 
 
+## References Taken from: 
+
+- Yellow Pages for providing publicly accessible business data
+- Pinecone for vector database infrastructure
+- Selenium community for dynamic webscrapping. 
+
 
 
 
