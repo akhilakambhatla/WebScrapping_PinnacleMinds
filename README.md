@@ -19,7 +19,7 @@ This project demonstrates a complete data pipeline:
 - Exports data from Pinecone for analysis
 
 
-### Installation
+## Installation
 
 1. Clone the repository:
 ```python
@@ -37,7 +37,35 @@ python -m venv venv
 pip install -r requirements.txt
 ```
 
-### Usage
+## Usage
+
+1. Running WebScrapping Python Selinium Script. 
+```python
+python webscrapper.py
+```
+It takes the url as input (with search term and location) and extracts the contact data and export it to output.csv file. 
+Input: User Given URL:
+Output: company name, website, address and phone number are extracted and saved it in .csv file. 
+
+2. PineCone Database
+
+```python
+python pinecone.py
+```
+this scripts takes output.csv file and add the extracted data into pinecone database. 
+NOTE: Before running this script, you need to create your own API key from pinecone.io for accessing your own Database. 
+Input: output.csv
+Output: importing to Pinecone DB. You can verify it in your portal after login at pinecone.io (.home/database/indexes)
+
+3. Exporting from Pinecone DB
+
+```python
+python export_data.py
+```
+This script exports the data from your pinecone database to pinecone_export.csv file. 
+this script is for verification purposes. 
+Input: your own Pinecone API Key. 
+Output: pinecone_export.csv file. 
 
 
 
